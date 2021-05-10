@@ -11,7 +11,7 @@
         "Notice, any parameter, acceptable by the node mysql module can be placed here."
     ],
     "source" : {
-        "host"             : "localhost",
+        "host"             : "127.0.0.1",
         "port"             : 3306,
         "database"         : "inventory",
         "charset"          : "utf8mb4",
@@ -27,12 +27,12 @@
         "Notice, any parameter, acceptable by the node pg module can be placed here."
     ],
     "target" : {
-        "host"     : "localhost",
+        "host"     : "127.0.0.1",
         "port"     : 5432,
         "database" : "inventory",
         "charset"  : "UTF8",
         "user"     : "postgres",
-        "password" : "abedi"
+        "password" : "gjStuG1f2Y"
     },
 
     "max_each_db_connection_pool_size_description" : [

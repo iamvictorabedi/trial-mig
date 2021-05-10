@@ -13,11 +13,11 @@
     "source" : {
         "host"             : "localhost",
         "port"             : 3306,
-        "database"         : "test_db",
+        "database"         : "inventory",
         "charset"          : "utf8mb4",
         "supportBigNumbers": true,
         "user"             : "root",
-        "password"         : "0123456789"
+        "password"         : "Nov1Kyosk"
     },
 
     "target_description" : [
@@ -29,10 +29,10 @@
     "target" : {
         "host"     : "localhost",
         "port"     : 5432,
-        "database" : "test_db",
+        "database" : "inventory",
         "charset"  : "UTF8",
         "user"     : "postgres",
-        "password" : "0123456789"
+        "password" : "abedi"
     },
 
     "max_each_db_connection_pool_size_description" : [
@@ -73,7 +73,7 @@
         "List (Array) of tables, that will not be migrated.",
         "By default, nmig will migrate all tables."
     ],
-    "exclude_tables": [],
+    "exclude_tables": ["databasechangelog","databasechangeloglock"],
 
     "include_tables_description": [
         "List (Array) of tables, that will be migrated.",

@@ -13,7 +13,7 @@
     "source" : {
         "host"             : "127.0.0.1",
         "port"             : 3306,
-        "database"         : "salesmanagement",
+        "database"         : "inventory",
         "charset"          : "utf8mb4",
         "supportBigNumbers": true,
         "user"             : "root",
@@ -29,7 +29,7 @@
     "target" : {
         "host"     : "127.0.0.1",
         "port"     : 5432,
-        "database" : "sale",
+        "database" : "inventory",
         "charset"  : "UTF8",
         "user"     : "postgres",
         "password" : "abedi"

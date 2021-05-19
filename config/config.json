@@ -32,7 +32,7 @@
         "database" : "inventory",
         "charset"  : "UTF8",
         "user"     : "postgres",
-        "password" : "gjStuG1f2Y"
+        "password" : "rISR7tJzKZ"
     },
 
     "max_each_db_connection_pool_size_description" : [

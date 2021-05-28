@@ -13,7 +13,7 @@
     "source" : {
         "host"             : "127.0.0.1",
         "port"             : 3306,
-        "database"         : "paymentservice",
+        "database"         : "salesmanagement",
         "charset"          : "utf8mb4",
         "supportBigNumbers": true,
         "user"             : "root",
@@ -29,7 +29,7 @@
     "target" : {
         "host"     : "127.0.0.1",
         "port"     : 5432,
-        "database" : "payment",
+        "database" : "sale",
         "charset"  : "UTF8",
         "user"     : "postgres",
         "password" : "gjStuG1f2Y"

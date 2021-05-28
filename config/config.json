@@ -13,7 +13,7 @@
     "source" : {
         "host"             : "127.0.0.1",
         "port"             : 3306,
-        "database"         : "inventory",
+        "database"         : "salesmanagement",
         "charset"          : "utf8mb4",
         "supportBigNumbers": true,
         "user"             : "root",
@@ -29,10 +29,10 @@
     "target" : {
         "host"     : "127.0.0.1",
         "port"     : 5432,
-        "database" : "inventory",
+        "database" : "sale",
         "charset"  : "UTF8",
         "user"     : "postgres",
-        "password" : "rISR7tJzKZ"
+        "password" : "gjStuG1f2Y"
     },
 
     "max_each_db_connection_pool_size_description" : [

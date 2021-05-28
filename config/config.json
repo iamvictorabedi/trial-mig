@@ -73,7 +73,7 @@
         "List (Array) of tables, that will not be migrated.",
         "By default, nmig will migrate all tables."
     ],
-    "exclude_tables": ["databasechangelog","databasechangeloglock"],
+    "exclude_tables": ["databasechangelog","databasechangeloglock", "transaction_for_fifth_april", "ops_item_duplicate_23042021"],
 
     "include_tables_description": [
         "List (Array) of tables, that will be migrated.",

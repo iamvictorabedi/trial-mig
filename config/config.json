@@ -29,9 +29,9 @@
     "target" : {
         "host"     : "127.0.0.1",
         "port"     : 5432,
-        "database" : "sale",
+        "database" : "inventory",
         "charset"  : "UTF8",
-        "user"     : "inventory",
+        "user"     : "postgres",
         "password" : "rISR7tJzKZ"
     },
 

@@ -13,7 +13,7 @@
     "source" : {
         "host"             : "127.0.0.1",
         "port"             : 3306,
-        "database"         : "salesmanagement",
+        "database"         : "inventory",
         "charset"          : "utf8mb4",
         "supportBigNumbers": true,
         "user"             : "root",
@@ -29,7 +29,7 @@
     "target" : {
         "host"     : "127.0.0.1",
         "port"     : 5432,
-        "database" : "sale",
+        "database" : "inventory",
         "charset"  : "UTF8",
         "user"     : "postgres",
         "password" : "rISR7tJzKZ"
@@ -73,7 +73,7 @@
         "List (Array) of tables, that will not be migrated.",
         "By default, nmig will migrate all tables."
     ],
-    "exclude_tables": ["databasechangelog","databasechangeloglock"],
+    "exclude_tables": ["databasechangelog","databasechangeloglock", "ops_item_duplicate_23042021", "transaction_for_fifth_april"],
 
     "include_tables_description": [
         "List (Array) of tables, that will be migrated.",
